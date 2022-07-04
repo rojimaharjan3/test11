@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/drawable/custom_btn.xml" value="0.2595" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/drawable/customeditext.xml" value="0.2595" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/drawable/ic_baseline_account_circle_24.xml" value="0.2595" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/drawable/ic_baseline_email_24.xml" value="0.231" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/drawable/ic_baseline_lock_24.xml" value="0.2595" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/layout/activity_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/layout/activity_home_page.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/layout/activity_sign_up.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/user/AndroidStudioProjects/OnlineBook/app/src/main/res/layout/simple_recycler.xml" value="0.264" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
