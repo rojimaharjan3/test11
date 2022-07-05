@@ -4,20 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/teal_700"
+    android:background="@color/primary"
     tools:context=".LoginActivity">
 
-    <TextView
-        android:id="@+id/welcome"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="92dp"
-        android:text="Online Book Store"
-        android:textColor="@color/white"
-        android:textSize="40sp"
-        app:layout_constraintEnd_toEndOf="parent"
+    <ImageView
+        android:layout_width="220dp"
+        android:layout_height="200dp"
+        android:src="@drawable/logo"
+        android:layout_marginTop="10dp"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"/>
 
     <ImageView
         android:id="@+id/imageView2"
@@ -29,7 +26,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="1.0"
-        app:srcCompat="@android:drawable/screen_background_dark" />
+        android:background="@color/white" />
 
     <EditText
         android:id="@+id/username"
@@ -41,12 +38,11 @@
         android:drawablePadding="5dp"
         android:elevation="3dp"
         android:ems="10"
+        android:textStyle="bold"
         android:hint="Username"
         android:inputType="textPersonName"
         android:minHeight="48dp"
         android:textAlignment="viewStart"
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
         android:textSize="16sp"
 
         app:layout_constraintEnd_toEndOf="parent"
@@ -63,10 +59,8 @@
         android:drawableStart="@drawable/ic_baseline_lock_24"
         android:drawablePadding="5dp"
         android:ems="10"
+        android:textStyle="bold"
         android:hint="Password"
-
-        android:textColor="@color/white"
-        android:textColorHint="@color/white"
         android:textSize="16sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.497"
@@ -80,7 +74,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
         android:text="Forgot Password?"
-        android:textColor="@color/white"
         android:textSize="14sp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.8"
@@ -94,7 +87,8 @@
         android:layout_marginTop="36dp"
         android:background="@drawable/custom_btn"
         android:text="Login "
-        app:backgroundTint="@color/teal_700"
+        android:textColor="@color/black"
+        app:backgroundTint="@color/primary"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.504"
         app:layout_constraintStart_toStartOf="parent"
@@ -106,7 +100,6 @@
         android:layout_height="wrap_content"
         android:layout_marginTop="44dp"
         android:text="Don't have an account yet?"
-        android:textColor="@color/white"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/login_My_Button" />
@@ -118,7 +111,8 @@
         android:layout_marginTop="12dp"
         android:background="@drawable/custom_btn"
         android:text="Sign up"
-        app:backgroundTint="@color/teal_700"
+        app:backgroundTint="@color/primary"
+        android:textColor="@color/black"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"

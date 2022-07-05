@@ -3,6 +3,7 @@ package com.example.onlinebook;
 public class Model {
     private String title;
     private String author;
+    private String description;
     private int img;
 
     public String getTitle() {
@@ -28,4 +29,8 @@ public class Model {
     public void setImg(int img) {
         this.img = img;
     }
+
+    public String getDescription(){return description; }
+
+    public void setDescription(String description) {this.description = description;}
 }
